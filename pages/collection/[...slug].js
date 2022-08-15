@@ -1,7 +1,7 @@
 import ActiveFilters from '@components/ActiveFilters';
 import Filters from '@components/Filters';
 import MultipleSizesExplanation from '@components/MultipleSizesExplanation';
-import cache from '@lib/cache';
+// import cache from '@lib/cache';
 import { PrismicRichText } from '@prismicio/react';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -125,16 +125,17 @@ export const getServerSideProps = async ({ locale, query, previewData }) => {
   const prismicClient = createClient({ previewData });
   const localeDomain = afosto.localeDomains[locale] || afosto.defaultDomain;
   const { slug, ...queryParams } = query || {};
-  const queryString =
-    Object.keys(queryParams).length > 0 ? `?${new URLSearchParams(queryParams).toString()}` : '';
-  const pageResponsePromise = cache.fetch(
-    cache.getCacheKeyForUrl(`${slug.join('/')}${queryString}`, 'data', 'dbm'),
-    async () => {
-      const pageResponse = await client(locale).getPage(slug.join('/'), queryParams);
-      return pageResponse?.data;
-    },
-    15 * 60,
-  );
+  // const queryString =
+  //   Object.keys(queryParams).length > 0 ? `?${new URLSearchParams(queryParams).toString()}` : '';
+  // const pageResponsePromise = cache.fetch(
+  //   cache.getCacheKeyForUrl(`${slug.join('/')}${queryString}`, 'data', 'dbm'),
+  //   async () => {
+  //     const pageResponse = await client(locale).getPage(slug.join('/'), queryParams);
+  //     return pageResponse?.data;
+  //   },
+  //   15 * 60,
+  // );
+  const pageResponsePromise = await client(locale).getPage(slug.join('/'), queryParams);
   const responses = await Promise.allSettled([
     prismicClient.getByUID('collection-page', slug.join('/'), { lang: locale }),
     pageResponsePromise,
@@ -142,7 +143,7 @@ export const getServerSideProps = async ({ locale, query, previewData }) => {
   const [prismicResponse, afostoResponse] = responses;
 
   const pageData = prismicResponse?.value?.data || {};
-  const response = afostoResponse?.value || {};
+  const response = afostoResponse?.value?.data || {};
   const collectionData = getCollectionData(locale, response);
   const layoutData = getLayoutData(response, locale);
   const page = response?.content?.pagination?.page || 1;
