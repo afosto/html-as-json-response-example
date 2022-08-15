@@ -1,0 +1,322 @@
+{
+  "actions.back": [
+    {
+      "type": 0,
+      "value": "Back"
+    }
+  ],
+  "actions.readMore": [
+    {
+      "type": 0,
+      "value": "Read more"
+    }
+  ],
+  "collection.filters.caratWeight.description": [
+    {
+      "type": 0,
+      "value": "Select the desired carat weight by using this filter."
+    }
+  ],
+  "collection.filters.caratWeight.label": [
+    {
+      "type": 0,
+      "value": "Carat weight"
+    }
+  ],
+  "collection.filters.filtersPlaceholder": [
+    {
+      "type": 0,
+      "value": "Filters"
+    }
+  ],
+  "collection.filters.metalMaterial.description": [
+    {
+      "type": 0,
+      "value": "Select the precious metals of your choice by using these filters."
+    }
+  ],
+  "collection.filters.metalMaterial.label": [
+    {
+      "type": 0,
+      "value": "Metal"
+    }
+  ],
+  "collection.filters.stoneMaterial.description": [
+    {
+      "type": 0,
+      "value": "Which gemstone suits you? Choose your gemstone using this filter."
+    }
+  ],
+  "collection.filters.stoneMaterial.diamond.title": [
+    {
+      "type": 0,
+      "value": "Diamond"
+    }
+  ],
+  "collection.filters.stoneMaterial.flat.title": [
+    {
+      "type": 0,
+      "value": "Flat"
+    }
+  ],
+  "collection.filters.stoneMaterial.label": [
+    {
+      "type": 0,
+      "value": "Gemstones"
+    }
+  ],
+  "collection.filters.stoneMaterial.other.title": [
+    {
+      "type": 0,
+      "value": "Other"
+    }
+  ],
+  "collection.filters.stoneMaterial.pearls.title": [
+    {
+      "type": 0,
+      "value": "Pearls"
+    }
+  ],
+  "collection.filters.stoneMaterial.preciousGemstones.title": [
+    {
+      "type": 0,
+      "value": "Precious gemstones"
+    }
+  ],
+  "collection.filters.stoneMaterial.semiPreciousGemstones.title": [
+    {
+      "type": 0,
+      "value": "Semi-precious stones"
+    }
+  ],
+  "collection.filters.stoneShape.description": [
+    {
+      "type": 0,
+      "value": "Select the shape of your gemstone using this filter."
+    }
+  ],
+  "collection.filters.stoneShape.label": [
+    {
+      "type": 0,
+      "value": "Stone shape"
+    }
+  ],
+  "collection.ringStyles.selectStylePlaceholder": [
+    {
+      "type": 0,
+      "value": "Select style"
+    }
+  ],
+  "collection.ringStyles.selectTitle": [
+    {
+      "type": 0,
+      "value": "Select"
+    }
+  ],
+  "collection.ringStyles.styleTitle": [
+    {
+      "type": 0,
+      "value": "Style"
+    }
+  ],
+  "collection.selectedFilters.label": [
+    {
+      "type": 0,
+      "value": "Selected filters"
+    }
+  ],
+  "common.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "components.addToCartButton.label": [
+    {
+      "type": 0,
+      "value": "In shopping bag"
+    }
+  ],
+  "components.header.siteSettingsDrawer.sections.language.title": [
+    {
+      "type": 0,
+      "value": "Language"
+    }
+  ],
+  "components.header.siteSettingsDrawer.title": [
+    {
+      "type": 0,
+      "value": "Please select your shipping destination & currency"
+    }
+  ],
+  "components.sidebarNavigation.mobile.trigger.label": [
+    {
+      "type": 0,
+      "value": "Menu"
+    }
+  ],
+  "mobileNavigation.allLink.label": [
+    {
+      "type": 0,
+      "value": "All "
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "mobileNavigation.backToLinkLabel.label": [
+    {
+      "type": 0,
+      "value": "Back to "
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "mobileNavigation.expressCollection.description": [
+    {
+      "type": 0,
+      "value": "Ready for delivery within 24h"
+    }
+  ],
+  "mobileNavigation.expressCollection.label": [
+    {
+      "type": 0,
+      "value": "Express collection"
+    }
+  ],
+  "mobileNavigation.root.label": [
+    {
+      "type": 0,
+      "value": "the menu"
+    }
+  ],
+  "pages.blog.author": [
+    {
+      "type": 0,
+      "value": "By:"
+    }
+  ],
+  "pages.product.components.productDetails.title": [
+    {
+      "type": 0,
+      "value": "Specifications for "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "pagination.itemsPerPage.options.label": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " per page"
+    }
+  ],
+  "pagination.next": [
+    {
+      "type": 0,
+      "value": "Next"
+    }
+  ],
+  "pagination.previous": [
+    {
+      "type": 0,
+      "value": "Previous"
+    }
+  ],
+  "product.description.readLess": [
+    {
+      "type": 0,
+      "value": "Read less"
+    }
+  ],
+  "product.description.title": [
+    {
+      "type": 0,
+      "value": "Description"
+    }
+  ],
+  "product.regularPrice": [
+    {
+      "type": 0,
+      "value": "Regular price: "
+    },
+    {
+      "type": 1,
+      "value": "price"
+    }
+  ],
+  "product.salesPrice": [
+    {
+      "type": 0,
+      "value": "Our price: "
+    },
+    {
+      "type": 1,
+      "value": "price"
+    },
+    {
+      "type": 0,
+      "value": " including VAT"
+    }
+  ],
+  "productConfigurator.aboutOptionDialog.label": [
+    {
+      "type": 0,
+      "value": "About "
+    },
+    {
+      "type": 1,
+      "value": "option"
+    }
+  ],
+  "productConfigurator.availabilityDialog.actions.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "productConfigurator.availabilityDialog.actions.continue": [
+    {
+      "type": 0,
+      "value": "Continue"
+    }
+  ],
+  "productConfigurator.availabilityDialog.title": [
+    {
+      "type": 0,
+      "value": "Your material choice"
+    }
+  ],
+  "productConfigurator.optionsDialog.option.actions.select": [
+    {
+      "type": 0,
+      "value": "Select"
+    }
+  ],
+  "productConfigurator.optionsDialog.option.unavailable": [
+    {
+      "type": 0,
+      "value": "Unavailable"
+    }
+  ],
+  "productConfigurator.optionsText.label": [
+    {
+      "type": 0,
+      "value": "Fill in a text here"
+    }
+  ],
+  "productConfigurator.title": [
+    {
+      "type": 0,
+      "value": "Customize your dream engagement ring"
+    }
+  ]
+}

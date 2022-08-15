@@ -1,3 +1,67 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "settings": {
+    "import/resolver": {
+      "jsconfig": {
+        "config": "jsconfig.json"
+      }
+    }
+  },
+  "ignorePatterns": [
+    "**/coverage/**",
+    "**/lib/**",
+    "**/docs/**",
+    "**/build/**",
+    "node_modules",
+    ".lintstagedrc.js"
+  ],
+  "plugins": ["@emotion"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals",
+    "plugin:@next/next/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-base",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true }],
+    "no-console": "error",
+    "operator-linebreak": "off",
+    "import/max-dependencies": "off",
+    "import/no-namespace": "off",
+    "react/function-component-definition": ["off", {
+      "namedComponents": "function-expression",
+      "unnamedComponents": "function-expression"
+    }],
+    "jsx-a11y/anchor-is-valid": ["off"],
+    "no-restricted-exports": ["off", {
+      "restrictedNamedExports": [
+        "default",
+        "then"
+      ]
+    }],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["@mui/material/*"],
+            "message": "Don't use the full material core import"
+          }
+        ]
+      }
+    ]
+  }
 }

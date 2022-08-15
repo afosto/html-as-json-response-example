@@ -1,0 +1,328 @@
+{
+  "actions.back": [
+    {
+      "type": 0,
+      "value": "Terug"
+    }
+  ],
+  "actions.readMore": [
+    {
+      "type": 0,
+      "value": "Lees meer"
+    }
+  ],
+  "collection.filters.caratWeight.description": [
+    {
+      "type": 0,
+      "value": "Met dit filter voor diamant kies je gemakkelijk het gewenste karaatgewicht van jouw centersteen."
+    }
+  ],
+  "collection.filters.caratWeight.label": [
+    {
+      "type": 0,
+      "value": "Karaatgewicht"
+    }
+  ],
+  "collection.filters.filtersPlaceholder": [
+    {
+      "type": 0,
+      "value": "Filters"
+    }
+  ],
+  "collection.filters.metalMaterial.description": [
+    {
+      "type": 0,
+      "value": "Met behulp van deze filters kun je een keuze maken uit de verschillende edelmetalen."
+    }
+  ],
+  "collection.filters.metalMaterial.label": [
+    {
+      "type": 0,
+      "value": "Metaal"
+    }
+  ],
+  "collection.filters.stoneMaterial.description": [
+    {
+      "type": 0,
+      "value": "Welke edelsteen past bij jou? Kies met behulp van dit filter jouw edelsteen."
+    }
+  ],
+  "collection.filters.stoneMaterial.diamond.title": [
+    {
+      "type": 0,
+      "value": "Diamant"
+    }
+  ],
+  "collection.filters.stoneMaterial.flat.title": [
+    {
+      "type": 0,
+      "value": "Flat"
+    }
+  ],
+  "collection.filters.stoneMaterial.label": [
+    {
+      "type": 0,
+      "value": "Edelstenen"
+    }
+  ],
+  "collection.filters.stoneMaterial.other.title": [
+    {
+      "type": 0,
+      "value": "Overig"
+    }
+  ],
+  "collection.filters.stoneMaterial.pearls.title": [
+    {
+      "type": 0,
+      "value": "Parels"
+    }
+  ],
+  "collection.filters.stoneMaterial.preciousGemstones.title": [
+    {
+      "type": 0,
+      "value": "Edelstenen"
+    }
+  ],
+  "collection.filters.stoneMaterial.semiPreciousGemstones.title": [
+    {
+      "type": 0,
+      "value": "Half edelstenen"
+    }
+  ],
+  "collection.filters.stoneShape.description": [
+    {
+      "type": 0,
+      "value": "Met behulp van dit filter kies jij jouw gewenste slijpvorm voor de edelsteen."
+    }
+  ],
+  "collection.filters.stoneShape.label": [
+    {
+      "type": 0,
+      "value": "Steenvorm"
+    }
+  ],
+  "collection.ringStyles.selectStylePlaceholder": [
+    {
+      "type": 0,
+      "value": "Selecteer stijl"
+    }
+  ],
+  "collection.ringStyles.selectTitle": [
+    {
+      "type": 0,
+      "value": "Selecteer"
+    }
+  ],
+  "collection.ringStyles.styleTitle": [
+    {
+      "type": 0,
+      "value": "Stijl"
+    }
+  ],
+  "collection.selectedFilters.label": [
+    {
+      "type": 0,
+      "value": "Geselecteerde filters"
+    }
+  ],
+  "common.new": [
+    {
+      "type": 0,
+      "value": "Nieuw"
+    }
+  ],
+  "components.addToCartButton.label": [
+    {
+      "type": 0,
+      "value": "In shopping bag"
+    }
+  ],
+  "components.header.siteSettingsDrawer.sections.language.title": [
+    {
+      "type": 0,
+      "value": "Taal"
+    }
+  ],
+  "components.header.siteSettingsDrawer.title": [
+    {
+      "type": 0,
+      "value": "Selecteer uw verzend locatie en valuta"
+    }
+  ],
+  "mobileNavigation.allLink.label": [
+    {
+      "type": 0,
+      "value": "Alle "
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "mobileNavigation.backToLinkLabel.label": [
+    {
+      "type": 0,
+      "value": "Terug naar "
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "mobileNavigation.expressCollection.description": [
+    {
+      "type": 0,
+      "value": "Klaar voor verzending binnen 24h"
+    }
+  ],
+  "mobileNavigation.expressCollection.label": [
+    {
+      "type": 0,
+      "value": "Express collection"
+    }
+  ],
+  "mobileNavigation.root.label": [
+    {
+      "type": 0,
+      "value": "het menu"
+    }
+  ],
+  "pages.blog.author": [
+    {
+      "type": 0,
+      "value": "Door:"
+    }
+  ],
+  "pages.customerService.menu.title": [
+    {
+      "type": 0,
+      "value": "Customer Service"
+    }
+  ],
+  "pages.educationCenter.menu.title": [
+    {
+      "type": 0,
+      "value": "Education Center"
+    }
+  ],
+  "pages.product.components.productDetails.title": [
+    {
+      "type": 0,
+      "value": "Specificaties voor "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "pagination.itemsPerPage.options.label": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " per pagina"
+    }
+  ],
+  "pagination.next": [
+    {
+      "type": 0,
+      "value": "Volgende"
+    }
+  ],
+  "pagination.previous": [
+    {
+      "type": 0,
+      "value": "Vorige"
+    }
+  ],
+  "product.description.readLess": [
+    {
+      "type": 0,
+      "value": "Lees minder"
+    }
+  ],
+  "product.description.title": [
+    {
+      "type": 0,
+      "value": "Omschrijving"
+    }
+  ],
+  "product.regularPrice": [
+    {
+      "type": 0,
+      "value": "Regular price: "
+    },
+    {
+      "type": 1,
+      "value": "price"
+    }
+  ],
+  "product.salesPrice": [
+    {
+      "type": 0,
+      "value": "Onze prijs: "
+    },
+    {
+      "type": 1,
+      "value": "price"
+    },
+    {
+      "type": 0,
+      "value": " inclusief BTW"
+    }
+  ],
+  "productConfigurator.aboutOptionDialog.label": [
+    {
+      "type": 0,
+      "value": "Over "
+    },
+    {
+      "type": 1,
+      "value": "option"
+    }
+  ],
+  "productConfigurator.availabilityDialog.actions.cancel": [
+    {
+      "type": 0,
+      "value": "Annuleren"
+    }
+  ],
+  "productConfigurator.availabilityDialog.actions.continue": [
+    {
+      "type": 0,
+      "value": "Doorgaan"
+    }
+  ],
+  "productConfigurator.availabilityDialog.title": [
+    {
+      "type": 0,
+      "value": "Your material choice"
+    }
+  ],
+  "productConfigurator.optionsDialog.option.actions.select": [
+    {
+      "type": 0,
+      "value": "Selecteer"
+    }
+  ],
+  "productConfigurator.optionsDialog.option.unavailable": [
+    {
+      "type": 0,
+      "value": "Unavailable"
+    }
+  ],
+  "productConfigurator.optionsText.label": [
+    {
+      "type": 0,
+      "value": "Fill in a text here"
+    }
+  ],
+  "productConfigurator.title": [
+    {
+      "type": 0,
+      "value": "Customize your dream engagement ring"
+    }
+  ]
+}
